@@ -25,7 +25,7 @@ Combined they produce smooth convergence to the target value.
 ## How To Compile and Run
 
 ```bash
-g++ pid.cpp -o pid
+g++ main.cpp PIDController.cpp -o pid
 ./pid
 ```
 
